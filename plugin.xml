@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <class>org.igniterealtime.openfire.plugin.xep0418.XEP0418Plugin</class>
+    <name>${project.name}</name>
+    <description>${project.description}</description>
+    <author>mightymop</author>
+    <version>${project.version}</version>
+    <date>10/18/2021</date>
+    <minServerVersion>4.4.0</minServerVersion>
+    <minJavaVersion>1.8</minJavaVersion>
+    <databaseKey>xep0418</databaseKey>
+    <databaseVersion>1</databaseVersion>
+    <adminconsole>
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-settings">
+                <item id="server-dnsoverxmpp-id" name="${sidebar.dnsoverxmpp}" url="dnsoverxmpp.jsp" description="${sidebar.dnsoverxmpp.descr}"/>
+            </sidebar>
+        </tab>
+    </adminconsole>
+</plugin>
