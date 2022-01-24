@@ -8,8 +8,7 @@
     <date>10/18/2021</date>
     <minServerVersion>4.4.0</minServerVersion>
     <minJavaVersion>1.8</minJavaVersion>
-    <databaseKey>xep0418</databaseKey>
-    <databaseVersion>1</databaseVersion>
+
     <adminconsole>
         <tab id="tab-server">
             <sidebar id="sidebar-server-settings">
